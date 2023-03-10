@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instructions</title>
+    <link rel="stylesheet" type="text/css" href="assets.css">
+    <script src="function.js"></script>
+</head>
+<body>
+	<nav>
+		<a href="/index.html">Home</a>
+        <h1>Instructions</h1>
+		<a href="/instructions.html">Instructions</a>
+	</nav>
+	<div class="container">
+        <h2>Update Package List</h2>
+        <p>To update the package list on Ubuntu, run the following command in the terminal:</p>
+        <div>
+            <pre><code>sudo apt update</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard(this.parentNode.querySelector('pre code'))">Copy Snippet</button>
+        </div>
+	</div>
+    <hr class="hrStyle">
+    <div class="container">
+        <h2>Update Packages</h2>
+        <p>To implement these updates and confirm their installation, run the following command in the terminal:</p>
+        <div>
+            <pre><code>sudo apt upgrade -y</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard(this.parentNode.querySelector('pre code'))">Copy Snippet</button>
+        </div>
+	</div>
+    <hr class="hrStyle">
+    <div class="container">
+        <h2>Install NGINX</h2>
+        <p>To install NGINX, run the following command in the terminal:</p>
+        <div>
+            <pre><code>sudo apt install nginx -y</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard(this.parentNode.querySelector('pre code'))">Copy Snippet</button>
+        </div>
+	</div>
+    <hr class="hrStyle">
+    <div class="container">
+        <h2>Check Service Status</h2>
+        <p>To check if NGINX is running, run the following command in the terminal:</p>
+        <div>
+            <pre><code>service nginx status</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard(this.parentNode.querySelector('pre code'))">Copy Snippet</button>
+        </div>
+	</div>
+    <hr class="hrStyle">
+    <div class="container">
+        <h2>Navigate To NGINX File Directory</h2>
+        <p>To view the files that make up the webpage, run the following command in the terminal:</p>
+        <div>
+            <pre><code>cd /var/www -y</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard(this.parentNode.querySelector('pre code'))">Copy Snippet</button>
+        </div>
+	</div>
+    <hr class="hrStyle">
+    <div class="container">
+        <h2>View Files In The Directory</h2>
+        <p>To view the files that in the directory, run the following command in the terminal:</p>
+        <div>
+            <pre><code>ls</code></pre>
+            <button class="copy-btn" onclick="copyToClipboard(this.parentNode.querySelector('pre code'))">Copy Snippet</button>
+        </div>
+	</div>
+
+
+</body>
+</html>
